@@ -21,6 +21,6 @@ class Hello extends \Magento\Framework\View\Element\Template
      */
     public function getContentForDisplay()
     {
-        return __("Successful! This is a sample module in Magento 2 by webkul.");
+        return __("Successful! This is a sample module in Magento 2.");
     }
 }

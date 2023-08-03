@@ -32,7 +32,7 @@ class Index extends Action
     {
         $resultPage = $this->_resultPageFactory->create();
         // Set title of page
-        $resultPage->getConfig()->getTitle()->set(__('Sample module in Magento 2 by Webkul'));
+        $resultPage->getConfig()->getTitle()->set(__('Sample module in Magento 2'));
         return $resultPage;
     }
 }
